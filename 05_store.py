@@ -11,16 +11,16 @@ goods = {
 
 # Есть словарь списков количества товаров на складе.
 
-store = {
-    '12345': [
-        {'quantity': 27, 'price': 42},
+ store = {
+       '12345': [
+           {'quantity': 27, 'price': 42},
     ],
-    '23456': [
+       '23456': [
         {'quantity': 22, 'price': 510},
         {'quantity': 32, 'price': 520},
     ],
     '34567': [
-        {'quantity': 2, 'price': 1200},
+        {'quantity'  : 2,   'price'  : 1200},
         {'quantity': 1, 'price': 1150},
     ],
     '45678': [
