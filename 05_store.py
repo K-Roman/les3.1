@@ -11,7 +11,7 @@ goods = {
 
 # Есть словарь списков количества товаров на складе.
 
- store = {
+store = {
        '12345': [
            {'quantity': 27, 'price': 42},
     ],
@@ -47,6 +47,15 @@ goods = {
 #     вывод на консоль количества и стоимости товара на складе
 
 # TODO здесь ваш код
+
+for name, num in goods.items():
+    quan_sum=0
+    price_all=0
+    list_it=store[num]
+    for i in list_it:
+        quan_sum=quan_sum + i['quantity']
+        price_all=price_all+i['price']
+    print(name,'-',quan_sum, 'шт',"стоимость", price_all,'руб')
 
 
 
