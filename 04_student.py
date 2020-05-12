@@ -10,5 +10,11 @@
 #   Студенту надо попросить ХХХ.ХХ рублей
 
 educational_grant, expenses = 10000, 12000
+exp_year=12000
+summ=0
+for i in range(1,11):
+    exp_year=exp_year+exp_year*0.03
+    summ=summ+exp_year
+ssuda=summ-educational_grant*12
+print(ssuda)
 
-# TODO здесь ваш код
